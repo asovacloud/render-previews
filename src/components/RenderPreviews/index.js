@@ -1,6 +1,8 @@
 import React from 'react';
-import Microlink from '@microlink/react';
+import LinkPreview from '@ashwamegh/react-link-preview'
 import valid from 'valid-url';
+
+import './RenderPreviews.css';
 
 const RenderPeviews = ({ links }) => {
   return (
@@ -11,7 +13,7 @@ const RenderPeviews = ({ links }) => {
             if (valid.isUri(item)){
               return (
                 <li className="collection-item" style={{ margin: '0 auto'}} key={item}>
-                    <Microlink url={item} size='large' />
+                    <LinkPreview url={item} />
                 </li>
               );
             } else {
