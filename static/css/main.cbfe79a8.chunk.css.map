@@ -1,0 +1,1 @@
+{"version":3,"sources":["RenderPreviews.css","app.css"],"names":[],"mappings":"AAAA,qBACE,cAAe,CACf,aAAc,CACd,eACF,CCJA,KACE,aAAc,CACd,eAAgB,CAChB,iBACF","file":"main.cbfe79a8.chunk.css","sourcesContent":[".render-previews img {\n  max-width: 100%;\n  display: block;\n  margin: 1rem 0 0;\n}",".app {\n  margin: 0 auto;\n  max-width: 600px;\n  padding: 2rem 1rem;\n}"]}
