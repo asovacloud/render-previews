@@ -12,8 +12,14 @@ const RenderPeviews = ({ links }) => {
           { links.map((item) => {
             if (valid.isUri(item)){
               return (
-                <li className="collection-item" style={{ margin: '0 auto'}} key={item}>
+                <li
+                  className="collection-item"
+                  style={{ margin: '0 auto'}}
+                  key={item}
+                >
+                  <a rel="noopener noreferrer" href={item} target="_blank">
                     <LinkPreview url={item} />
+                  </a>
                 </li>
               );
             } else {
